@@ -1,0 +1,259 @@
+body {
+  background: linear-gradient(to bottom right, #e3f2fd, #bbdefb);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+h2 {
+  text-align: center;   /*Lombard Street*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Chinatown*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Pier 39*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Cable Cars*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Alcatraz Island*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Golden Gate Park*/
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;   /*Golden Gate Bridge*/
+  color: #2c3e50;
+}
+
+.themenbild  {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+ .themenbild  {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.themenbild  {   
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.themenbild {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.themenbild  {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.themenbild  {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.themenbild  {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.themenbild  {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.controls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+select, button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+select {
+  background-color: #f0f0f0;
+}
+
+button {
+  background-color: #f0f0f0;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bbdefb;
+}
+footer {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #333;                                                                                       
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.quellenliste {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quellenliste li {
+  margin: 0.3rem 0;
+}
+
+.quellenliste a {
+  color: #555;
+  text-decoration: none;
+}
+
+.quellenliste a:hover {
+  text-decoration: underline;
+}
+
+.legende {
+  background-color:#bbdefb;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-left: 4px solid #007bff;
+}
+
+.legende h3 {
+  margin-top: 0;
+}
+
+.legende ul {
+  padding-left: 20px;
+}
+
+.legende li {
+  margin-bottom: 0.5rem;
+}
+
+.groupnname {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #444;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.controls {
+  display: flex;
+  align-items: center;  /* ❗ richtet alles auf eine Linie aus */
+  gap: 1rem;            /* Abstand zwischen den Elementen */
+  margin-top: 1rem;
+  flex-wrap: wrap;      /* falls auf kleinen Bildschirmen nötig */
+}
+
+.controls select,
+.controls button {
+  height: 40px;              /* gleiche Höhe */
+  font-size: 1rem;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.controls button {
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #d32f2f;
+}
+
+
+.clickable-word {
+  display: inline;
+  font-size: inherit;
+  font-family: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  padding: 2 1px; /* klein, damit Klickfläche da ist, aber Text eng bleibt */
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
